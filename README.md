@@ -75,7 +75,7 @@ It is based on the same functions already prepared intentionally with a regular 
 
 - **CREATE SUBPLOTS:**
 
-You can create subplits inside a plot and manage individually.
+You can create subplots inside a plot and manage they individually.
 
 *subplots( $numyplots = null, $numxplots = null, $cfg = [ 'bordertype' => 'square', 'figsize' => [6.4, 4.8], 'paddingleft' => .2, 'paddingbottom' => .15 ])*
  
