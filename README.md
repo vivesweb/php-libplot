@@ -9,8 +9,9 @@ It is based on the same functions already prepared intentionally with a regular 
 
 # SAMPLES:
 ![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph1.jpg)
-![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph2.jpg)
 ![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph3.jpg)
+![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph2.jpg)
+**Sample of Pairplot():**
 ![PHP-LibPlot. PairPlot Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/php-libplot/main/pairplot.png)
 
 # REQUERIMENTS:
