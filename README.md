@@ -106,7 +106,7 @@ Example:
 
 You can create a pairplot graph from csv dataset in array. First row need to be col names.
 
-In $cfg array you can set the width of the marks:
+In $cfg array you can set the width of the markers:
 ['widthmarker' => 5]
 
 *pairplot( $dataset, $cfg = null )*
