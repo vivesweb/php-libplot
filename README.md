@@ -133,7 +133,7 @@ example:
 	<img width="1900" src="<?php echo $plt->output_gd_png_base64( );?>">
 	
 **IMPORTANT NOTE!!!**
-For other methods read https://github.com/vivesweb/graph-php documentation. Example.php file of php-libplot class uses some of the php-graph methods directly:
+For other methods read https://github.com/vivesweb/graph-php documentation. Example.php file of php-libplot class uses some of the php-graph methods directly as example of use:
 - bar()
 - plot()
 - title()
