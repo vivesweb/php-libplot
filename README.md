@@ -11,6 +11,7 @@ It is based on the same functions already prepared intentionally with a regular 
 ![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph1.jpg)
 ![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph2.jpg)
 ![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph3.jpg)
+![PHP-LibPlot. PairPlot Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/php-libplot/main/pairplot.png)
 
 # REQUERIMENTS:
  
@@ -99,3 +100,28 @@ Example:
         echo '<img src="'.$plt->subplots[1][0]->output_gd_png_base64( ).'">';
         echo '<img src="'.$plt->subplots[1][1]->output_gd_png_base64( ).'">';
 
+- **PAIRPLOT:**
+
+You can create a pairplot graph from array. First row need to be col names.
+
+In $cfg array you can set the width of the marks:
+['widthmarker' => 5]
+
+*pairplot( $dataset, $cfg = null )*
+
+example:
+
+	// read csv
+
+	$dataset = [];
+	if (($gestor = fopen("ibex35.csv", "r")) !== FALSE) {
+	  	while (($datos = fgetcsv($gestor, 1000, ",")) !== FALSE) {
+      			$dataset[] = $datos;
+  		}
+  	fclose($gestor);
+	}
+
+	$plt = new php_plotlib();
+	$plt->pairplot( $dataset, ['widthmarker' => 6] );?>
+
+	<img width="1900" src="<?php echo $plt->output_gd_png_base64( );?>">
