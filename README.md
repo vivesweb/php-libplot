@@ -8,12 +8,14 @@ This class starts with the need to create graphics in the style of MatLibPlot, b
 It is based on the same functions already prepared intentionally with a regular use of MatibPlot and also written in PHP https://github.com/vivesweb/graph-php. That is why it is recommended to also read the documentation of this second class, where most of the methods used by PHP-LibPlot are original provided.
 
 # SAMPLES:
+
+Sample of Pairplot():
+![PHP-LibPlot. PairPlot Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/php-libplot/main/pairplot.png)
+
+Other Samples that you can generate with php-libplot and provided by inside php-graph class:
 ![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph1.jpg)
 ![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph3.jpg)
 ![PHP-LibPlot. Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/graph-php/main/multigraph2.jpg)
-
-**Sample of Pairplot():**
-![PHP-LibPlot. PairPlot Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/php-libplot/main/pairplot.png)
 
 # REQUERIMENTS:
 
