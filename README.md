@@ -1,4 +1,4 @@
-# php-libplot
+# php-libplot. Written in PHP. Graphs charts, scatter, plot, lines, custom graphs
 Matplotlib. Pyplot written in PHP. Graphs charts, scatter, plot, lines, custom graphs
 
 ## V.1.0.0
