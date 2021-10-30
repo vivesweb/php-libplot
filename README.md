@@ -125,3 +125,43 @@ example:
 	$plt->pairplot( $dataset, ['widthmarker' => 6] );?>
 
 	<img width="1900" src="<?php echo $plt->output_gd_png_base64( );?>">
+	
+**IMPORTANT NOTE!!!**
+For other methods read https://github.com/vivesweb/graph-php documentation. You can find there the methods:
+- bar()
+- plot()
+- title()
+- xlabel()
+- ylabel()
+- axes()
+- legend()
+- set_drawguidelines()
+- set_x_drawguidelines(9
+- set_y_drawguidelines()
+- legendwidthlines()
+- legendlabelheight()
+- imread()
+- xticks()
+- scatter()
+- hist()
+- width()
+- height()
+- And a common math python funcions created in php as linspace, arraypow and others
+	
+**Of course. You can use it freely :vulcan_salute::alien:**
+ 
+ By Rafa.
+ 
+ 
+ @author Rafael Martin Soto
+ 
+ @author {@link http://www.inatica.com/ Inatica}
+ 
+ @blog {@link https://rafamartin10.blogspot.com/ Rafael Martin's Blog}
+ 
+ @since OCTOBER 2021
+ 
+ @version 1.0.3
+ 
+ @license GNU General Public License v3.0
+
