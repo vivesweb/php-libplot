@@ -16,6 +16,8 @@ It is based on the same functions already prepared intentionally with a regular 
 ![PHP-LibPlot. PairPlot Graphs Matlibplot in PHP](https://raw.githubusercontent.com/vivesweb/php-libplot/main/pairplot.png)
 
 # REQUERIMENTS:
+
+    - Requires php-graph library: https://github.com/vivesweb/graph-php
  
     - A minimum (minimum, minimum, minimum requeriments is needed). Tested on:
  		
