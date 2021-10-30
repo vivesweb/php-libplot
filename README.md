@@ -83,9 +83,9 @@ You can create subplots inside a plot and manage they individually.
  $numxplots: Number of horizontal subplots
  $cfg: Configuration of subplots:
  - bordertype: ['square' | 'halfsquare']
- - figsize: size in inches (width, height), with inches
- - paddingleft: If you need space at left, you can to set here with inches
- - paddingbottom: If you need space at left, you can to set here with inches
+ - figsize: size in inches (width, height), in inches
+ - paddingleft: If you need space at left, you can to set here in inches
+ - paddingbottom: If you need space at left, you can to set here in inches
 
 Example:
 
