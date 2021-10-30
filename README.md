@@ -3,7 +3,7 @@ Matplotlib. Pyplot written in PHP. Graphs charts, scatter, plot, lines, custom g
 
 ## V.1.0.0
 
-This class starts with the need to create graphics in the style of MatLibPlot, but in pure PHP language due to the use on shared servers with access restrictions to the system to install third-party applications. This first version performs a great variety of the best pyplot functions, combined with mathematical functions commonly used in Machine Learning as linspace or arraypow.
+This class starts with the need to create graphics in the style of MatLibPlot, but in pure PHP language due to the use on shared servers with access restrictions to the system to install third-party applications. This first version performs a great variety of the best pyplot functions, combined with mathematical numpy functions commonly used in Machine Learning as linspace or arraypow.
 
 It is based on the same functions already prepared intentionally with a regular use of MatibPlot and also written in PHP https://github.com/vivesweb/graph-php. That is why it is recommended to also read the documentation of this second class, where most of the methods used by PHP-LibPlot are original provided.
 
